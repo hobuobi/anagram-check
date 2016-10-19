@@ -1,0 +1,14 @@
+body {
+  background-color: #EEE;
+}
+
+input[type='text'] {
+  font-size: 2em;
+  padding: 20px;
+  margin: 10px;
+  transition: 0.4s;
+  font-family: 'Didact Gothic', sans-serif;
+}
+input[type='text']:focus {
+  box-shadow: 5px 5px 10px #AAA;
+}

@@ -17,3 +17,14 @@ function isAnagram(str1,str2){
       return false
   }
 }
+
+$(document).ready(function(){
+  $("input").keyup(function(){
+    str1 = $("#str1").val()
+    str2 = $("#str2").val()
+    console.log(str1)
+    console.log(str2)
+    console.log(isAnagram(str1,str2))
+  })
+
+})
