@@ -43,7 +43,7 @@ input[type='text']:focus + #main{
   -webkit-transition-timing-function: ease;
 }
 .veil:hover{
-  top: 0%;
+  top: 10%;
 }
 .veil:hover + #veil-header {
   background-color: white;
