@@ -25,9 +25,9 @@ function stripSpaces(str){
 }
 function indicate(bool){
   if(bool)
-    $("input").css("border-color","green")
+    $("input").css("border-color","#8ee000")
   else {
-    $("input").css("border-color","red")
+    $("input").css("border-color","#e53838")
   }
 }
 $(document).ready(function(){

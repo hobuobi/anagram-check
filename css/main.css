@@ -1,23 +1,24 @@
 html {
   overflow: hidden;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 body {
-  background-color: #FDFDFD;
+  background-color: #f0f0f0;
   width: 100%;
   height: 100%;
 }
 
 input[type='text'] {
+  font-family: 'Didact Gothic', sans-serif;
   display: inline-block;
   font-size: 2em;
-  padding: 20px;
+  padding: 20px 20px 20px 0px;
   margin: 10px;
   transition: 0.4s;
   background: none;
-  font-family: 'Didact Gothic', sans-serif;
   border: none;
-  border-bottom: 3px solid red;
+  border-bottom: 3px dotted red;
   color: #BBB;
   width:45%;
 }
@@ -25,14 +26,31 @@ input[type='text']:focus {
   color: #333;
   outline: none;
 }
+input[type='text']:focus + #main{
+  box-shadow: none;
+}
 #main {
   position: absolute;
-  top: 45%;
-  left: 12.5%;
+  top: 40%;
+  left: 10%;
   width: 75%;
   margin: auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 10px 10px 10px #cfcfcf;
+  border-radius: 20px;
 }
-
+#header {
+  background-color: #1cb0f6;
+  height: 43px;
+  padding: 15px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin: 0px;
+}
+#header > img {
+  height: 100%;
+}
 #status{
   display: inline-block;
   height: 100px;
