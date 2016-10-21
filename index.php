@@ -14,9 +14,14 @@
 <body>
   <div id="header"><img src="img/logo_white.png"></div>
   <div id="main">
+    <div style="display: inline-block; float:left;width:45%">
     <input type="text" name="str1" id="str1" style="float:left;">
-    <div id="status"></div>
+    <span style="float: left"><i>Type the first word here...</i></span>
+    </div>
+    <div style="display: inline-block; float:right;width:45%">
     <input type="text" name="str2" id="str2" style="float:right;">
+    <span style="float: right"><i>...and the second one here.</i></span>
+  </div>
   </div>
   <div class="veil">
     <div id="veil-header"><h2>^  INFORMATION  ^</h2></div>
